@@ -3,11 +3,11 @@ using UIKit;
 
 namespace XamarinLearning.iOS {
     
-    public partial class ViewController : UIViewController {
+    public partial class MainScreen : BaseScreen {
         
         int count = 1;
 
-        public ViewController(IntPtr handle) : base(handle) { }
+        public MainScreen(IntPtr handle) : base(handle) { }
 
         public override void ViewDidLoad () {
             
