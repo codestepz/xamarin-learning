@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Screen\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -100,9 +101,13 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
-    <Compile Include="ViewController.cs" />
-    <Compile Include="ViewController.designer.cs">
-      <DependentUpon>ViewController.cs</DependentUpon>
+    <Compile Include="Screen\MainScreen.cs" />
+    <Compile Include="Screen\MainScreen.designer.cs">
+      <DependentUpon>MainScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\BaseScreen.cs" />
+    <Compile Include="Screen\BaseScreen.designer.cs">
+      <DependentUpon>BaseScreen.cs</DependentUpon>
     </Compile>
   </ItemGroup>
   <Import Project="..\XamarinLearning\XamarinLearning.projitems" Label="Shared" Condition="Exists('..\XamarinLearning\XamarinLearning.projitems')" />
