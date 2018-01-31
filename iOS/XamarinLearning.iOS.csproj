@@ -104,6 +104,10 @@
     <Compile Include="ViewController.designer.cs">
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="HelloController.cs" />
+    <Compile Include="HelloController.designer.cs">
+      <DependentUpon>HelloController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="..\XamarinLearning\XamarinLearning.projitems" Label="Shared" Condition="Exists('..\XamarinLearning\XamarinLearning.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

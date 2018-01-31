@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace XamarinLearning.Droid {
     
-    [Activity(Label = "XamarinLearning", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "XamarinLearning", Icon = "@mipmap/icon")]
     public class MainActivity : Activity {
         
         int count = 1;
@@ -12,8 +12,6 @@ namespace XamarinLearning.Droid {
         protected override void OnCreate(Bundle savedInstanceState) {
             
             base.OnCreate(savedInstanceState);
-
-            // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
             // Get our button from the layout resource,

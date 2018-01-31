@@ -7,20 +7,22 @@
 using Foundation;
 using System;
 using System.CodeDom.Compiler;
+using UIKit;
 
 namespace XamarinLearning.iOS
 {
-    [Register ("ViewController")]
-    partial class ViewController
+    [Register ("HelloController")]
+    partial class HelloController
     {
         [Outlet]
-        UIKit.UIButton Button { get; set; }
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel LabelHello { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
-            if (Button != null) {
-                Button.Dispose ();
-                Button = null;
+            if (LabelHello != null) {
+                LabelHello.Dispose ();
+                LabelHello = null;
             }
         }
     }
