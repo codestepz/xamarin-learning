@@ -109,6 +109,13 @@
     <Compile Include="Screen\BaseScreen.designer.cs">
       <DependentUpon>BaseScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screen\HelloScreen.cs" />
+    <Compile Include="Screen\HelloScreen.designer.cs">
+      <DependentUpon>HelloScreen.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Kanit-Regular.ttf" />
   </ItemGroup>
   <Import Project="..\XamarinLearning\XamarinLearning.projitems" Label="Shared" Condition="Exists('..\XamarinLearning\XamarinLearning.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
