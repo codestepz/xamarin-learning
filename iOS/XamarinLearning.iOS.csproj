@@ -109,6 +109,14 @@
     <Compile Include="Screen\BaseScreen.designer.cs">
       <DependentUpon>BaseScreen.cs</DependentUpon>
     </Compile>
+    <Compile Include="Screen\MultiScreen.cs" />
+    <Compile Include="Screen\MultiScreen.designer.cs">
+      <DependentUpon>MultiScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Screen\BackScreen.cs" />
+    <Compile Include="Screen\BackScreen.designer.cs">
+      <DependentUpon>BackScreen.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="..\XamarinLearning\XamarinLearning.projitems" Label="Shared" Condition="Exists('..\XamarinLearning\XamarinLearning.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

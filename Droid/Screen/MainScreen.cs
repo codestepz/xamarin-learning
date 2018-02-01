@@ -4,7 +4,7 @@ using Android.OS;
 
 namespace XamarinLearning.Droid {
 
-    [Activity(Label = "XamarinLearning", MainLauncher = true, Icon = "@mipmap/icon")]
+    [Activity(Label = "XamarinLearning", Icon = "@mipmap/icon")]
     public class MainScreen : BaseScreen {
 
         int count = 1;

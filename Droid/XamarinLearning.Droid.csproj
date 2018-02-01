@@ -48,6 +48,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Screen\MainScreen.cs" />
     <Compile Include="Screen\BaseScreen.cs" />
+    <Compile Include="Screen\MultiScreen.cs" />
+    <Compile Include="Screen\BackScreen.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -62,6 +64,8 @@
     <AndroidResource Include="Resources\mipmap-xhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxhdpi\Icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\Icon.png" />
+    <AndroidResource Include="Resources\layout\Multi.axml" />
+    <AndroidResource Include="Resources\layout\Back.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Screen\" />

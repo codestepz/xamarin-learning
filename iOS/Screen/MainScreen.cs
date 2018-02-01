@@ -7,7 +7,7 @@ namespace XamarinLearning.iOS {
 
         int count = 1;
 
-        public MainScreen(IntPtr handle) : base(handle) { }
+        public MainScreen (IntPtr handle) : base(handle) { }
 
         public override void ViewDidLoad () {
 

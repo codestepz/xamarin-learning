@@ -11,16 +11,19 @@ using Android.Views;
 using Android.Widget;
 
 namespace XamarinLearning.Droid {
-
-    [Activity(Label = "BaseScreen")]
-    public class BaseScreen : Activity {
-
+    
+    [Activity(Label = "MultiScreen", MainLauncher = true)]
+    public class MultiScreen : BaseScreen {
+        
         protected override void OnCreate(Bundle savedInstanceState) {
-
+            
             base.OnCreate(savedInstanceState);
+            SetContentView(Resource.Layout.Multi);
 
-            // Set Layout
-            SetContentView(Resource.Layout.Main);
+            Button BtnNext = FindViewById<Button>(Resource.Id.BtnNext);
+            BtnNext.Click += delegate {
+                StartActivity(new Intent(this, typeof(BackScreen)));
+            };
 
         }
 
